@@ -1,0 +1,113 @@
+.page-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: rgb(233, 92, 11);
+  font-weight: bold; /* Set title color to orange */
+}
+
+
+
+
+
+.production-management-system {
+
+
+
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 1.8rem; /* Adjust the font size */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.production-planning-form {
+  max-width: 600px; /* Reduce the max-width */
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 12px; /* Reduce margin between form groups */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9rem; /* Reduce the font size of the labels */
+}
+
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 8px; /* Reduce the padding */
+  font-size: 0.9rem; /* Adjust the font size */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.batch-selection-form {
+  margin-bottom: 15px;
+}
+
+.batch-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.batch-button {
+  padding: 8px 16px; /* Reduce the padding */
+  font-size: 0.9rem; /* Adjust the font size */
+  border: none;
+  border-radius: 4px;
+  background-color: #372fab; /* Set consistent color */
+  color: white;
+  cursor: pointer;
+}
+
+.batch-button.active {
+  background-color: #372fab; /* Same color for active state */
+  border: 2px solid #4f52b2; /* Optional: add a subtle border to indicate selection */
+}
+
+.batch-button:hover {
+  background-color: #533daa; /* Change color on hover */
+}
+
+.view-productions-button-container {
+  text-align:center ;
+  margin-bottom: 15px;
+  margin-left: -600px;
+}
+
+.view-productions-button {
+  padding: 8px 16px; /* Adjust padding */
+  font-size: 0.9rem; /* Adjust the font size */
+  background-color: #3c7eb3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.success-message {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #4caf50;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem; /* Slightly reduce button font size */
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

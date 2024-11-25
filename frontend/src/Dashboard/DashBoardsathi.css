@@ -1,0 +1,17 @@
+.dashboard-container {
+    padding: 250px; /* Add some padding around the dashboard content */
+    text-align: center; /* Center the text */
+}
+
+.dashboard-card {
+    background-color: white; /* Card background */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px; /* Space below the card */
+}
+
+.completed-deliveries-number {
+    font-size: 40px; /* Larger font for the number */
+    font-weight: bold; /* Bold for emphasis */
+}

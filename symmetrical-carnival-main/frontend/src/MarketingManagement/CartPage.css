@@ -1,0 +1,318 @@
+/* General Cart Page Layout */
+.cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.cart-title {
+  font-size: 2.5em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-date {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.cart-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cart-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cart-shop-form {
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  text-align: left;
+}
+
+.cart-shop-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Table Layout for Cart and Order Summary */
+.cart-table, .cart-summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.cart-table-header, .cart-summary-header {
+  background-color: #ab6899;
+  color: white;
+  text-align: left;
+  padding: 15px;
+  font-size: 1.1em;
+}
+
+.cart-table-cell, .cart-summary-cell {
+  padding: 15px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.cart-quantity-input {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+.cart-submit-button, .cart-edit-button, .cart-remove-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-remove-button {
+  background-color: #dc3545;
+}
+
+.cart-remove-button:hover {
+  background-color: #c82333;
+}
+
+.cart-submit-button:hover, .cart-edit-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Summary and Total Section */
+.cart-subtotal, .cart-discount, .cart-total {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cart-total {
+  font-size: 1.4em;
+  color: #ab6899;
+}
+
+/* Order Summary Section Styles */
+.cart-summary h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.cart-summary p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.cart-summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cart-summary-table th {
+  background-color: #ab6899; /* Blue background for headers */
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.cart-summary-table td {
+  padding: 10px;
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+.cart-summary-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+.cart-summary-table tr:hover {
+  background-color: #e9ecef; /* Light gray on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cart-container {
+    padding: 15px;
+  }
+
+  .cart-title {
+    font-size: 2em;
+  }
+
+  .cart-date {
+    font-size: 1em;
+  }
+
+  .cart-input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .cart-table, .cart-summary-table {
+    font-size: 0.9em;
+  }
+
+  .cart-submit-button, .cart-edit-button, .cart-remove-button {
+    padding: 8px 16px;
+  }
+}
+
+/* Download PDF Button */
+.cart-generate-pdf-button {
+  display: inline-block;
+  background-color: #ffc107; /* Yellow background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 1em;
+  text-align: center;
+  margin-left: 400px;
+}
+
+.cart-generate-pdf-button:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+.cart-view-orders-button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove borders */
+  padding: 10px 20px; /* Add some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 8px 2px; /* Add some margin */
+  cursor: pointer; /* Change cursor to pointer */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Add transition for hover effects */
+}
+
+.cart-view-orders-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.cart-view-orders-button:active {
+  background-color: #3e8e41; /* Darker green on click */
+  transform: scale(0.95); /* Slightly shrink on click */
+}
+
+/* CartPage.css */
+
+.cart-container {
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+.cart-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.cart-shop-form {
+  margin-bottom: 1rem;
+}
+
+.cart-label {
+  display: block;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.cart-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  margin-bottom: 1rem;
+}
+
+.cart-table {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+
+.cart-table-header {
+  padding: 0.5rem 1rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.cart-table-cell {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.cart-quantity-input {
+  width: 3rem;
+  padding-left: 0.5rem;
+  font-size: 1.125rem;
+}
+
+.cart-remove-button {
+  color: #e3342f;
+  cursor: pointer;
+}
+
+.cart-remove-button:hover {
+  color: #cc1f1a;
+}
+
+.cart-new-product-form {
+  margin-bottom: 1rem;
+}
+
+.cart-add-button {
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.cart-add-button:hover {
+  background-color: #2563eb;
+}
+
+.cart-subtotal {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

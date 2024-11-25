@@ -1,0 +1,132 @@
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto; /* Center the container */
+}
+
+.title {
+  font-size: 2rem; /* Adjusted size */
+  margin-bottom: 20px; /* Space below title */
+  text-align: center; /* Center text */
+  color: #333; /* Title color */
+}
+
+.view-resources-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Increased padding */
+  margin-bottom: 20px; /* Space below button */
+  cursor: pointer;
+  font-size: 1rem; /* Adjusted font size */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.view-resources-button:hover {
+  background-color: #03203f; /* Darker shade on hover */
+  margin-left: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px; /* Space below error message */
+  text-align: center; /* Center text */
+  font-size: 1rem; /* Adjusted font size */
+}
+
+.form-container {
+  border: 2px solid #ddd; /* Slightly thicker border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px; /* Padding inside container */
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 600px;
+  margin-left: 300px;
+}
+
+.form-title {
+  font-size: 1.5rem; /* Adjusted size */
+  margin-bottom: 15px; /* Space below title */
+  text-align: center; /* Center text */
+  color: #333; /* Title color */
+}
+
+.resource-form-group {
+  margin-bottom: 20px; /* Increased margin */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Increased margin */
+}
+
+label {
+  display: block; /* Block display for labels */
+  margin-bottom: 5px; /* Space below label */
+  font-weight: bold; /* Bold text */
+  color: #555; /* Label color */
+}
+
+select,
+input[type="number"],
+input[type="date"] {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside inputs */
+  border: 2px solid #ddd; /* Thicker border */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 1rem; /* Adjusted font size */
+  transition: border-color 0.3s; /* Smooth transition */
+}
+
+/* Input fields on focus */
+select:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between; /* Space between buttons */
+  margin-top: 20px; /* Space above actions */
+}
+
+.btn {
+  padding: 10px 15px; /* Padding inside buttons */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.btn-primary {
+  background-color: #28a745; /* Success color */
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #218838; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Secondary color */
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #455460; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.btn-cancel {
+  background-color: #dc3545; /* Danger color */
+  color: white;
+}
+
+.btn-cancel:hover {
+  background-color: #c82333; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}

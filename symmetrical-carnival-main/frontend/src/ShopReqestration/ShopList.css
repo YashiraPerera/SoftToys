@@ -1,0 +1,179 @@
+/* General Container Styles */
+.shop-list-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Title Styles */
+  .shop-list-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Input Styles */
+  .shop-list-search-group {
+    margin-bottom: 20px;
+  }
+  
+  .shop-list-form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Shop List Item Styles */
+  .shop-list-shops-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .shop-list-shop-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shop-list-shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .shop-list-shop-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .shop-list-view-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-list-view-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Shop Details Styles */
+  .shop-list-shop-details {
+    margin-top: 10px;
+  }
+  
+  .shop-list-shop-details p {
+    margin: 5px 0;
+    font-size: 0.875rem;
+  }
+  
+  /* Modal Styles */
+  .shop-list-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .shop-list-modal-content {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .shop-list-modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .shop-list-modal-detail {
+    margin-bottom: 10px;
+    font-size: 0.875rem;
+    color: #333;
+  }
+  
+  .shop-list-close-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-list-close-button:hover {
+    background-color: #c82333;
+  }
+  /* Modal Button Actions */
+.shop-list-modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Space above the buttons */
+}
+
+/* Individual Button Styles */
+.shop-list-save-button,
+.shop-list-delete-button,
+.shop-list-close-button {
+  padding: 10px 15px; /* Padding for buttons */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1em; /* Font size */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth background transition and scale on hover */
+  flex: 1; /* Allow buttons to grow and share space */
+  margin: 0 5px; /* Space between buttons */
+}
+
+/* Save Button */
+.shop-list-save-button {
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+}
+
+.shop-list-save-button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly grow on hover */
+}
+
+/* Delete Button */
+.shop-list-delete-button {
+  background-color: #dc3545; /* Red background */
+  color: white; /* White text */
+}
+
+.shop-list-delete-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly grow on hover */
+}
+
+/* Close Button */
+.shop-list-close-button {
+  background-color: #6c757d; /* Gray background */
+  color: white; /* White text */
+}
+
+.shop-list-close-button:hover {
+  background-color: #5a6268; /* Darker gray on hover */
+  transform: scale(1.05); /* Slightly grow on hover */
+}

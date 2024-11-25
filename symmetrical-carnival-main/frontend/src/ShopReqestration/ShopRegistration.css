@@ -1,0 +1,212 @@
+/* ShopRegistration.css */
+
+/* Container for the entire shop registration section */
+.shop-registration-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Button to navigate to another page */
+.shop-registration-navigate-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.shop-registration-navigate-button:hover {
+  background-color: #0056b3;
+}
+
+/* Form and form elements */
+.shop-registration-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.shop-registration-form-group {
+  margin-bottom: 15px;
+}
+
+.shop-registration-form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.shop-registration-form-input,
+.shop-registration-form-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.shop-registration-submit-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.shop-registration-submit-button:hover {
+  background-color: #218838;
+  transform: scale(1.03);
+}
+
+/* Search input */
+.shop-registration-search-group {
+  margin-top: 20px;
+}
+
+.shop-registration-search-group input {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* List of shops */
+.shop-registration-shops-list {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.shop-registration-shops-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.shop-registration-shop-item {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+
+.shop-registration-shop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-registration-shop-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.shop-registration-view-button,
+.shop-registration-edit-button,
+.shop-registration-delete-button {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.shop-registration-view-button {
+  background-color: #007bff;
+}
+
+.shop-registration-view-button:hover {
+  background-color: #0056b3;
+}
+
+.shop-registration-edit-button {
+  background-color: #ffc107;
+}
+
+.shop-registration-edit-button:hover {
+  background-color: #e0a800;
+}
+
+.shop-registration-delete-button {
+  background-color: #dc3545;
+}
+
+.shop-registration-delete-button:hover {
+  background-color: #c82333;
+}
+
+/* Modal styles */
+.shop-registration-modal-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-registration-modal-content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 80%;
+  max-width: 600px;
+}
+
+.shop-registration-modal-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.shop-registration-modal-detail {
+  margin-bottom: 10px;
+}
+
+.shop-registration-close-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.shop-registration-close-button:hover {
+  background-color: #c82333;
+}
+.shop-registration-view-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.shop-registration-view-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.05);
+}
+
+
+
+.shop-registration-view-container {
+  width: 100%; /* Ensure it takes full width */
+  display: flex;
+  justify-content: flex-end; /* Aligns the button to the right */
+  margin-top: -40px; /* Adds space above the button */
+
+}
+
+
